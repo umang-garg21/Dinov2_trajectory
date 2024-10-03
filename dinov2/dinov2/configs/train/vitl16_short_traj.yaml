@@ -1,0 +1,7 @@
+# this corresponds to the default config
+train:
+  dataset_path: Trajectory:split=TRAIN:root='':extra=''
+  batch_size_per_gpu: 16
+student:
+  block_chunks: 4
+ 
